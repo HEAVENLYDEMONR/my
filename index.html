@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Learning Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: white;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .main-content {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .case-studies {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .case-study {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .case-study:hover {
+            transform: translateY(-5px);
+        }
+        
+        .case-study h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        
+        .case-study ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .case-study li {
+            padding: 0.3rem 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .case-study li:last-child {
+            border-bottom: none;
+        }
+        
+        .level-beginner { border-left-color: #28a745; }
+        .level-intermediate { border-left-color: #ffc107; }
+        .level-advanced { border-left-color: #dc3545; }
+        
+        .git-commands {
+            background: #2d3748;
+            color: #cbd5e0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            font-family: 'Courier New', monospace;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: white;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Git Learning Project</h1>
+            <p class="subtitle">Master Git through hands-on case studies</p>
+        </header>
+        
+        <div class="main-content">
+            <section class="intro">
+                <h2>Welcome to Git Mastery! 🎯</h2>
+                <p>This project will guide you through 10 essential Git case studies that cover everything from basic commits to advanced collaboration techniques.</p>
+            </section>
+            
+            <div class="case-studies">
+                <div class="case-study level-beginner">
+                    <h3>📚 Beginner Level</h3>
+                    <ul>
+                        <li>✅ Case Study 1: Repository Setup</li>
+                        <li>✅ Case Study 2: Tracking Changes</li>
+                        <li>✅ Case Study 3: Ignoring Files</li>
+                        <li>✅ Case Study 4: Undoing Changes</li>
+                    </ul>
+                </div>
+                
+                <div class="case-study level-intermediate">
+                    <h3>⚡ Intermediate Level</h3>
+                    <ul>
+                        <li>🔧 Case Study 5: Branching & Merging</li>
+                        <li>🔍 Case Study 6: Commit History</li>
+                        <li>🌐 Case Study 7: Remote Repositories</li>
+                    </ul>
+                </div>
+                
+                <div class="case-study level-advanced">
+                    <h3>🔥 Advanced Level</h3>
+                    <ul>
+                        <li>👥 Case Study 8: Team Collaboration</li>
+                        <li>⚔️ Case Study 9: Merge Conflicts</li>
+                        <li>🔄 Case Study 10: Reverting Commits</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="git-commands">
+                <h3>💻 Quick Git Commands Reference</h3>
+                <pre><code>git init          # Initialize new repository
+git add .         # Stage all changes
+git commit -m ""  # Commit changes
+git status        # Check repository status
+git log --oneline # View commit history
+git branch        # List branches
+git checkout -b   # Create and switch to new branch
+git merge         # Merge branches
+git push          # Push to remote repository</code></pre>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Made with ❤️ for the Git learning community</p>
+            <p>Start your Git journey today! 🎉</p>
+        </footer>
+    </div>
+</body>
+</html>
