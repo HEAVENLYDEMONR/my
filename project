@@ -1,0 +1,12 @@
+git-learning-project/
+│
+├── README.md
+├── .gitignore
+├── index.html
+├── contact.html
+├── scripts/
+│   └── setup-demo.sh
+└── exercises/
+    ├── case-study-1.md
+    ├── case-study-2.md
+    └── ... (all case studies)
